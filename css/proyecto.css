@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Outfit, Verdana, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #548687;
+}
+
+.form-titulo{
+    font-size: large;
+    color: #6da34d;
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item{
+    border: 2px solid black;
+    width: 50%;
+    align-content: center;
+}
+
+.precio{
+    font-size: medium;
+    color: #56445d;
+    text-align: left;
+    margin: 1%;
+}
+.oferta{
+    font-size: small;
+    color: red;
+    text-align: left;
+}
+.descripcion{
+    font-size: small;
+    text-align: center;
+    margin-left: 1%;
+}
+
+.btn-item{
+    background-color: #56445d;
+    color: aliceblue;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.btn-item:hover{
+    background-color: aliceblue;
+    color: #56445d;
+    cursor:pointer;
+}
+
+.form-section {
+    background-color: teal;
+    text-align: center;
+    border: 2px #56445d;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+
+.footer {
+    background-color: #8fbc94;
+    color: #548687;
+    padding: 5%;
+    text-align: center;
+    border: 2px solid;
+    font-family: Outfit, Verdana, Tahoma, sans-serif;
+}
+
+.redes{
+    background-color: #56445d;
+    box-shadow: transparent;
+    text-align: center;
+    border: black;
+}
+
+/*medias queries*/
+
+@media only screen and (max-width: 600px;){
+    .form-section {
+        background-color: orange;
+        color: red;
+       
+    }
+}
+     
+@media only screen and (min-width: 600px;){
+    .form-section {
+        background-color: yellow;
+        color: blue;
+       
+    }
+}
